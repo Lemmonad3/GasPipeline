@@ -22,4 +22,4 @@ C:\Users\bin4r\source\repos\GasPipeLine\obj\Debug\GasPipeLine.Windows.AutoWindow
 C:\Users\bin4r\source\repos\GasPipeLine\obj\Debug\GasPipeLine.Windows.MainWindow.resources
 C:\Users\bin4r\source\repos\GasPipeLine\obj\Debug\GasPipeLine.csproj.CopyComplete
 C:\Users\bin4r\source\repos\GasPipeLine\obj\Debug\GasPipeLine.Windows.EducationWindow.resources
-C:\Users\bin4r\source\repos\GasPipeLine\obj\Debug\GasPipeLine.Windows.AdminWindow.resources
+C:\Users\bin4r\source\repos\GasPipeLine\obj\Debug\GasPipeLine.Windows.AdministrationWindow.resources

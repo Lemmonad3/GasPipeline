@@ -16,7 +16,7 @@ namespace GasPipeLine.Windows
         public AutoWindow()
         {
             InitializeComponent();
-            textBoxPassword.UseSystemPasswordChar = true;
+            txbPassword.UseSystemPasswordChar = true;
         }
 
         GasPipelineDB pipelineDB = new GasPipelineDB();
@@ -25,11 +25,12 @@ namespace GasPipeLine.Windows
         {
             try
             {
-                if (pipelineDB.User.Where(r => r.Login == textBoxLogin.Text && r.Password == textBoxPassword.Text).Count() > 0)
+                if (pipelineDB.User.Where(r => r.Login == txbLogin.Text && r.Password == txbPassword.Text).Count() > 0)
                 {
                     WorkingWindow wrk = new WorkingWindow();
                     wrk.Show();
                     this.Hide();
+
                 }
                 else
                 {

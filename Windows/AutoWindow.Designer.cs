@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AutoWindow));
             this.labelLogin = new System.Windows.Forms.Label();
-            this.textBoxLogin = new System.Windows.Forms.TextBox();
-            this.textBoxPassword = new System.Windows.Forms.TextBox();
+            this.txbLogin = new System.Windows.Forms.TextBox();
+            this.txbPassword = new System.Windows.Forms.TextBox();
             this.labelPassword = new System.Windows.Forms.Label();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,19 +46,19 @@
             this.labelLogin.TabIndex = 0;
             this.labelLogin.Text = "Логин";
             // 
-            // textBoxLogin
+            // txbLogin
             // 
-            this.textBoxLogin.Location = new System.Drawing.Point(105, 137);
-            this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(219, 26);
-            this.textBoxLogin.TabIndex = 1;
+            this.txbLogin.Location = new System.Drawing.Point(105, 137);
+            this.txbLogin.Name = "txbLogin";
+            this.txbLogin.Size = new System.Drawing.Size(219, 26);
+            this.txbLogin.TabIndex = 1;
             // 
-            // textBoxPassword
+            // txbPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(105, 210);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(219, 26);
-            this.textBoxPassword.TabIndex = 2;
+            this.txbPassword.Location = new System.Drawing.Point(105, 210);
+            this.txbPassword.Name = "txbPassword";
+            this.txbPassword.Size = new System.Drawing.Size(219, 26);
+            this.txbPassword.TabIndex = 2;
             // 
             // labelPassword
             // 
@@ -98,11 +98,12 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.labelPassword);
-            this.Controls.Add(this.textBoxPassword);
-            this.Controls.Add(this.textBoxLogin);
+            this.Controls.Add(this.txbPassword);
+            this.Controls.Add(this.txbLogin);
             this.Controls.Add(this.labelLogin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AutoWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Авторизация";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -112,8 +113,8 @@
         #endregion
 
         private System.Windows.Forms.Label labelLogin;
-        private System.Windows.Forms.TextBox textBoxLogin;
-        private System.Windows.Forms.TextBox textBoxPassword;
+        private System.Windows.Forms.TextBox txbLogin;
+        private System.Windows.Forms.TextBox txbPassword;
         private System.Windows.Forms.Label labelPassword;
         private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.Label label1;

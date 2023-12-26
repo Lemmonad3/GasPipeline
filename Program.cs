@@ -17,7 +17,7 @@ namespace GasPipeLine
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WorkingWindow());
+            Application.Run(new MainWindow());
         }
     }
 }
